@@ -1,0 +1,465 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"278 /opt/microchip/xc8/v2.10/pic/include/pic16f877a.h
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 278: extern volatile unsigned char PORTC __attribute__((address(0x007)));
+[v _PORTC `Vuc ~T0 @X0 0 e@7 ]
+"222
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 222:     struct {
+[s S8 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S8 . RB0 RB1 RB2 RB3 RB4 RB5 RB6 RB7 ]
+"221
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 221: typedef union {
+[u S7 `S8 1 ]
+[n S7 . . ]
+"233
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 233: extern volatile PORTBbits_t PORTBbits __attribute__((address(0x006)));
+[v _PORTBbits `VS7 ~T0 @X0 0 e@6 ]
+"2686
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 2686: extern volatile __bit RB4 __attribute__((address(0x34)));
+[v _RB4 `Vb ~T0 @X0 0 e@52 ]
+"1816
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1816: extern volatile unsigned char PR2 __attribute__((address(0x092)));
+[v _PR2 `Vuc ~T0 @X0 0 e@146 ]
+"2479
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 2479: extern volatile __bit CCP2Y __attribute__((address(0xEC)));
+[v _CCP2Y `Vb ~T0 @X0 0 e@236 ]
+"2476
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 2476: extern volatile __bit CCP2X __attribute__((address(0xED)));
+[v _CCP2X `Vb ~T0 @X0 0 e@237 ]
+"1080
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1080: extern volatile unsigned char CCPR2L __attribute__((address(0x01B)));
+[v _CCPR2L `Vuc ~T0 @X0 0 e@27 ]
+"2875
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 2875: extern volatile __bit T2CKPS1 __attribute__((address(0x91)));
+[v _T2CKPS1 `Vb ~T0 @X0 0 e@145 ]
+"2872
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 2872: extern volatile __bit T2CKPS0 __attribute__((address(0x90)));
+[v _T2CKPS0 `Vb ~T0 @X0 0 e@144 ]
+[p mainexit ]
+"1437
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1437: extern volatile unsigned char TRISC __attribute__((address(0x087)));
+[v _TRISC `Vuc ~T0 @X0 0 e@135 ]
+"1255
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1255: extern volatile unsigned char OPTION_REG __attribute__((address(0x081)));
+[v _OPTION_REG `Vuc ~T0 @X0 0 e@129 ]
+"737
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 737: extern volatile unsigned char T2CON __attribute__((address(0x012)));
+[v _T2CON `Vuc ~T0 @X0 0 e@18 ]
+"1094
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1094: extern volatile unsigned char CCP2CON __attribute__((address(0x01D)));
+[v _CCP2CON `Vuc ~T0 @X0 0 e@29 ]
+"9 newmain.c
+[p x CP=1 ]
+"10
+[p x DEBUG=1 ]
+"11
+[p x WRT=OFF ]
+"12
+[p x CPD=1 ]
+"13
+[p x LVP=0 ]
+"14
+[p x BOREN=1 ]
+"15
+[p x PWRTE=OFF ]
+"17
+[p x WDTE=OFF ]
+"18
+[p x FOSC=HS ]
+"54 /opt/microchip/xc8/v2.10/pic/include/pic16f877a.h
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"218
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 218: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"280
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 280: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"342
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 342: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"404
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 404: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"436
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 436: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"456
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 456: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"534
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 534: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"596
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 596: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"636
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 636: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"643
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 643: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"650
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 650: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"657
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 657: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"732
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 732: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"739
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 739: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"810
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 810: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"817
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 817: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"887
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 887: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"894
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 894: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"901
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 901: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"908
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 908: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"966
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 966: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1061
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1061: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1068
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1068: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1075
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1075: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1082
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1082: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1089
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1089: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1096
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1096: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1154
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1154: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1161
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1161: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1257
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1257: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1327
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1327: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1377
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1377: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1439
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1439: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1501
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1501: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1563
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1563: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1620
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1620: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1682
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1682: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1722
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1722: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1756
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1756: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"1818
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1818: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1825
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1825: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"1832
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 1832: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"2001
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 2001: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2082
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 2082: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2089
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 2089: __asm("CMCON equ 09Ch");
+[; <" CMCON equ 09Ch ;# ">
+"2159
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 2159: __asm("CVRCON equ 09Dh");
+[; <" CVRCON equ 09Dh ;# ">
+"2224
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 2224: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2231
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 2231: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"2290
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 2290: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"2297
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 2297: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"2304
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 2304: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"2311
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 2311: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"2318
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 2318: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"2363
+[; ;/opt/microchip/xc8/v2.10/pic/include/pic16f877a.h: 2363: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"27 newmain.c
+[; ;newmain.c: 27: void waiting_for_blue_button_pressing_releasing(void)
+[v _waiting_for_blue_button_pressing_releasing `(v ~T0 @X0 1 ef ]
+"28
+[; ;newmain.c: 28: { unsigned int local_integer;
+{
+[e :U _waiting_for_blue_button_pressing_releasing ]
+[f ]
+[v _local_integer `ui ~T0 @X0 1 a ]
+"32
+[; ;newmain.c: 32: while(PORTBbits.RB4)
+[e $U 96  ]
+[e :U 97 ]
+"33
+[; ;newmain.c: 33:     PORTC ^= 0b00000100;
+[e =^ _PORTC -> -> 4 `i `Vuc ]
+[e :U 96 ]
+"32
+[; ;newmain.c: 32: while(PORTBbits.RB4)
+[e $ != -> . . _PORTBbits 0 4 `i -> 0 `i 97  ]
+[e :U 98 ]
+"38
+[; ;newmain.c: 38: for(local_integer=0-10000; local_integer++; PORTC ^= 0b00000100 )
+{
+[e = _local_integer -> - -> 0 `i -> 10000 `i `ui ]
+[e $U 102  ]
+[e :U 99 ]
+"39
+[; ;newmain.c: 39:     if(!RB4)
+[e $ ! ! _RB4 103  ]
+"40
+[; ;newmain.c: 40:         local_integer=0-10000;
+[e = _local_integer -> - -> 0 `i -> 10000 `i `ui ]
+[e :U 103 ]
+[e =^ _PORTC -> -> 4 `i `Vuc ]
+[e :U 102 ]
+[e $ != ++ _local_integer -> -> 1 `i `ui -> -> 0 `i `ui 99  ]
+[e :U 100 ]
+}
+"42
+[; ;newmain.c: 42: __asm("NOP");
+[; <" NOP ;# ">
+"43
+[; ;newmain.c: 43: __asm("NOP");
+[; <" NOP ;# ">
+"44
+[; ;newmain.c: 44: __asm("NOP");
+[; <" NOP ;# ">
+"46
+[; ;newmain.c: 46:  }
+[e :UE 95 ]
+}
+"51
+[; ;newmain.c: 51: void set_PWM2(unsigned char value_for_PR2, unsigned int value_for_duty, unsigned char value_of_prescale)
+[v _set_PWM2 `(v ~T0 @X0 1 ef3`uc`ui`uc ]
+"52
+[; ;newmain.c: 52: {
+{
+[e :U _set_PWM2 ]
+"51
+[; ;newmain.c: 51: void set_PWM2(unsigned char value_for_PR2, unsigned int value_for_duty, unsigned char value_of_prescale)
+[v _value_for_PR2 `uc ~T0 @X0 1 r1 ]
+[v _value_for_duty `ui ~T0 @X0 1 r2 ]
+[v _value_of_prescale `uc ~T0 @X0 1 r3 ]
+"52
+[; ;newmain.c: 52: {
+[f ]
+"54
+[; ;newmain.c: 54:     PR2 = value_for_PR2;
+[e = _PR2 _value_for_PR2 ]
+"56
+[; ;newmain.c: 56:     value_for_duty &= 0b0000001111111111;
+[e =& _value_for_duty -> -> 1023 `i `ui ]
+"65
+[; ;newmain.c: 65:     CCP2Y=(value_for_duty & 0b0000000000000001)?1:0;
+[e = _CCP2Y -> ? != & _value_for_duty -> -> 1 `i `ui -> -> 0 `i `ui : -> 1 `i -> 0 `i `b ]
+"74
+[; ;newmain.c: 74:     CCP2X=(value_for_duty & 0b0000000000000010)?1:0;
+[e = _CCP2X -> ? != & _value_for_duty -> -> 2 `i `ui -> -> 0 `i `ui : -> 1 `i -> 0 `i `b ]
+"77
+[; ;newmain.c: 77:    value_for_duty >>= 2;
+[e =>> _value_for_duty -> -> 2 `i `ui ]
+"78
+[; ;newmain.c: 78:    CCPR2L = value_for_duty;
+[e = _CCPR2L -> _value_for_duty `uc ]
+"81
+[; ;newmain.c: 81:    switch(value_of_prescale)
+[e $U 106  ]
+"82
+[; ;newmain.c: 82:    { case 1: T2CKPS1 = 0;
+{
+[e :U 107 ]
+[e = _T2CKPS1 -> -> 0 `i `b ]
+"83
+[; ;newmain.c: 83:                     T2CKPS0 = 0;
+[e = _T2CKPS0 -> -> 0 `i `b ]
+"84
+[; ;newmain.c: 84:                     break;
+[e $U 105  ]
+"85
+[; ;newmain.c: 85:        case 4: T2CKPS1 = 0;
+[e :U 108 ]
+[e = _T2CKPS1 -> -> 0 `i `b ]
+"86
+[; ;newmain.c: 86:                     T2CKPS0 = 1;
+[e = _T2CKPS0 -> -> 1 `i `b ]
+"87
+[; ;newmain.c: 87:                     break;
+[e $U 105  ]
+"88
+[; ;newmain.c: 88:        case 16: T2CKPS1 = 1;
+[e :U 109 ]
+[e = _T2CKPS1 -> -> 1 `i `b ]
+"89
+[; ;newmain.c: 89:                     break;
+[e $U 105  ]
+"90
+[; ;newmain.c: 90:        default: break;
+[e :U 110 ]
+[e $U 105  ]
+"91
+[; ;newmain.c: 91:    }
+}
+[e $U 105  ]
+[e :U 106 ]
+[e [\ -> _value_of_prescale `i , $ -> 1 `i 107
+ , $ -> 4 `i 108
+ , $ -> 16 `i 109
+ 110 ]
+[e :U 105 ]
+"93
+[; ;newmain.c: 93:    __asm("NOP");
+[; <" NOP ;# ">
+"94
+[; ;newmain.c: 94:    __asm("NOP");
+[; <" NOP ;# ">
+"95
+[; ;newmain.c: 95:    __asm("NOP");
+[; <" NOP ;# ">
+"96
+[; ;newmain.c: 96: }
+[e :UE 104 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"101
+[; ;newmain.c: 101: void main(void)
+[v _main `(v ~T0 @X0 1 ef ]
+"102
+[; ;newmain.c: 102: { unsigned char value_for_PR2_main, value_for_prescale_main;
+{
+[e :U _main ]
+[f ]
+[v _value_for_PR2_main `uc ~T0 @X0 1 a ]
+[v _value_for_prescale_main `uc ~T0 @X0 1 a ]
+"103
+[; ;newmain.c: 103:     unsigned int value_for_duty_main;
+[v _value_for_duty_main `ui ~T0 @X0 1 a ]
+"105
+[; ;newmain.c: 105: TRISC &= 0b11111001;
+[e =& _TRISC -> -> 249 `i `Vuc ]
+"106
+[; ;newmain.c: 106: OPTION_REG &= 0b01111111;
+[e =& _OPTION_REG -> -> 127 `i `Vuc ]
+"107
+[; ;newmain.c: 107: T2CON = 0b00000100;
+[e = _T2CON -> -> 4 `i `uc ]
+"108
+[; ;newmain.c: 108: CCP2CON = 0b00001111;
+[e = _CCP2CON -> -> 15 `i `uc ]
+"112
+[; ;newmain.c: 112: value_for_PR2_main = 0x3F;
+[e = _value_for_PR2_main -> -> 63 `i `uc ]
+"113
+[; ;newmain.c: 113: value_for_duty_main = 1;
+[e = _value_for_duty_main -> -> 1 `i `ui ]
+"114
+[; ;newmain.c: 114: value_for_prescale_main = 4;
+[e = _value_for_prescale_main -> -> 4 `i `uc ]
+"116
+[; ;newmain.c: 116: while(1)
+[e :U 113 ]
+"117
+[; ;newmain.c: 117: {
+{
+"118
+[; ;newmain.c: 118: set_PWM2(value_for_PR2_main, value_for_duty_main, value_for_prescale_main);
+[e ( _set_PWM2 (3 , , _value_for_PR2_main _value_for_duty_main _value_for_prescale_main ]
+"120
+[; ;newmain.c: 120: __asm("NOP");
+[; <" NOP ;# ">
+"121
+[; ;newmain.c: 121: __asm("NOP");
+[; <" NOP ;# ">
+"122
+[; ;newmain.c: 122: __asm("NOP");
+[; <" NOP ;# ">
+"124
+[; ;newmain.c: 124: waiting_for_blue_button_pressing_releasing();
+[e ( _waiting_for_blue_button_pressing_releasing ..  ]
+"126
+[; ;newmain.c: 126: __asm("NOP");
+[; <" NOP ;# ">
+"127
+[; ;newmain.c: 127: __asm("NOP");
+[; <" NOP ;# ">
+"128
+[; ;newmain.c: 128: __asm("NOP");
+[; <" NOP ;# ">
+"129
+[; ;newmain.c: 129: }
+}
+[e :U 112 ]
+[e $U 113  ]
+[e :U 114 ]
+"130
+[; ;newmain.c: 130: }
+[e :UE 111 ]
+}
