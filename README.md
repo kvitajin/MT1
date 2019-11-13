@@ -29,13 +29,13 @@ Student musí dosáhnout minimálně 24 bodů.
 ## E-learning
 ## Další požadavky na studenta
 Další požadavky na studenta nejsou kladeny.
-Prerekvizity
+## Prerekvizity
 
 Předmět nemá žádné prerekvizity.
-Korekvizity
+## Korekvizity
 
 Předmět nemá žádné korekvizity.
-Osnova předmětu
+## Osnova předmětu
 1. Základy mikropočítačové techniky, mikroprocesor/mikrořadič, registry.  Mikroprocesory PIC Microchip. Vývojové prostředí  MPLAB X, vytvoření projektu v něm.
 2. Instrukce procesoru PIC16F877A. Sériové rozhraní tohoto mikroprocesoru a jeho programová obsluha.
 3. Sběrnice I2C, principy, předvedení komunikace PIC16F877A  x  SAA1064.
